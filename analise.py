@@ -44,7 +44,7 @@ mail.HTMLBody = f'''
 Qualquer dúvida estou a disposição
 
 Att Jones
-
 '''
+
 mail.Send()
 print('email send!')
