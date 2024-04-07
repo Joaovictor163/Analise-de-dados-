@@ -1,10 +1,15 @@
 import pandas as pd
 import win32com.client as win32
 
+#objetivos
+#fazer uma analise com a base de dados e mandar por email os resultados de faturamento por loja, quantidade vendida por loja e ticket médio por loja
+
+
 #importar a base de dados
 #ler a base de dados
 tabela = pd.read_excel('Vendas.xlsx')
 
+#visualizando a base de dados
 print(tabela)
 
 #faturamento
