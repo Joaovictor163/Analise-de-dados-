@@ -30,7 +30,7 @@ print(ticket_medio)
 #enviar relatório por email
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'shototodoroki163@gmail.com'
+mail.To = 'teste@gmail.com'
 mail.Subject = ' Relatório das Vendas'
 mail.HTMLBody = f'''
 <p>Bom dia Prezados</p>,
